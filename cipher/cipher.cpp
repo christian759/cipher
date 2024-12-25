@@ -35,7 +35,6 @@ void caesar_cipher() {
 }
 
 bool check(char letter) {
-	bool pure = false;
 	for (int i = 0; i < alphabet.length(); i++) {
 		if (letter == alphabet[i]) {
 			return true;
